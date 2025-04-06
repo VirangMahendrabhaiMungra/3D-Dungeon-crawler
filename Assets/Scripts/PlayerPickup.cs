@@ -49,7 +49,7 @@ public class PlayerPickup : MonoBehaviour
                 {
                     // If we couldn't add the item, remove it from processed items
                     processedItems.Remove(other);
-                    string message = item.isStackable ? "Inventory Full!" : "Already have this item!";
+                    string message = item.isStackable ? "Inventory Full!" : "You don't have available option in your inventory. Use any to make it available.";
                     if (pickupText != null)
                     {
                         pickupText.ShowPickupText(message);
