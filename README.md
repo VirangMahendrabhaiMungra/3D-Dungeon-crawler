@@ -1,21 +1,62 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89yzFmMg)
-# ACS-3922 W25 Assignment 4
+# 3D Dungeon Crawler
 
-------
+A thrilling 3D Dungeon Crawler survival game built with **Unity (2021.3.45f1)**. Navigate through an intricate map, fight off enemies, manage your inventory, and find the ultimate trophy to win!
 
-### Getting Started
+## 📸 Screenshots
 
-- Step 1: Clone this repository to your local machine using `git clone <repo link>` (follow the instructions in A0 and/or the [Git Fundamentals document on Nexus](https://nexus.uwinnipeg.ca/d2l/le/content/67597/viewContent/1909272/View) if unsure about this process). Note this repository has some files aleady included. These are this README and a .gitignore. You do not need to edit the .gitignore file but should make sure to leave it within the repository. 
-- Step 2: Now we need to start a Unity project within the repository.
-  - **If you have a project already (i.e., you have already started the assignment before cloning)**: Copy and paste the project folders (Assets, Packages, Scripts, Project Settings etc.) into your cloned repository. DO NOT copy the folder containing the project folders. That is, if your Unity project is in an `A2` folder, you should copy all contents of the `A2` folder and not the `A2` folder itself.)
-  - **If you need to create a new project**: In Unity - Create a new project and change the location of the project to be in the cloned git folder.
+| Dungeon Overview | Enemy Encounter |
+|:---:|:---:|
+| <img src="Screenshots/dungeon_overview.png" width="400"/> | <img src="Screenshots/enemy_encounter.png" width="400"/> |
 
-- Step 3: Commit and Push the changes. 
+## 🎬 Gameplay Videos
 
-- Step 4: Continue working on the assignment on Unity as you would normally do and commit + push the code throughout (follow the instructions in A0 and/or the [Git Fundamentals document on Nexus](https://nexus.uwinnipeg.ca/d2l/le/content/67597/viewContent/1909272/View) if unsure about this process). 
+[![Gameplay Demo 1](https://img.youtube.com/vi/Uk4GoaA_SH8/maxresdefault.jpg)](https://youtu.be/Uk4GoaA_SH8)
+> 🎮 *Click the image above to watch Gameplay Demo 1*
 
-**NOTE**: Some folders and files which are in a Unity project might not be pushed to the remote repository and hence you will not be able to see them on github even after pushing your changes. There is no need to worry, this is *intentional* and is done to make sure that the extra Unity files which can and will be re-generated later by the TAs are not uploaded/pushed on github, since that consumes a lot of storage on the repository. This is exclusion of files on purpose is done by the `.gitignore` file which specifies all the files that git can ignore to be tracked and hence they will not be pushed.
+[![Gameplay Demo 2](https://img.youtube.com/vi/bTUQZ0yNIxY/maxresdefault.jpg)](https://youtu.be/bTUQZ0yNIxY)
+> 🎮 *Click the image above to watch Gameplay Demo 2*
 
-### Checking for Feedback
+## 🎮 Gameplay Features
 
-Click on the `Pull Requests` tab at the top of this page, and select the `feedback` pull request. Scroll down to see the feedback. **NOTE:** Do not merge or close this pull request.
+* **First-Person Action:** Equip a gun, manage your ammunition, and fire at enemies to survive.
+* **Dynamic Enemy AI:** 
+  * **Regular Enemies:** Static hazards that deal contact damage if you get too close.
+  * **Patrol Enemies:** Intelligent enemies that patrol the grounds, detect the player, and chase you down within a certain range.
+* **Inventory & Item Management:**
+  * Collect various items such as **Health Boosts**, **Keys**, and **Power-Ups**.
+  * Quick-select items using number keys corresponding to your inventory slots.
+  * Strategic inventory limits: You cannot pick up new items if your inventory is full—use your current items to make space!
+* **Power-Ups:** Gain a temporary speed boost (running instead of walking) for 10 seconds to outrun enemies or traverse the map quickly.
+* **Level Design & Guidance:**
+  * Visual cues and lighting are strategically placed to indirectly guide the player towards the objective.
+  * Arrow markers on the map provide direct guidance to find the essential key.
+
+## 🏆 Objective
+
+Explore the dungeon to find the **Key**, then navigate towards the brightly lit areas to locate the **Trophy**. Use the key near the trophy to complete the game!
+
+## 🛠️ Technologies Used
+
+* **Game Engine:** Unity 3D (2021.3.45f1)
+* **Language:** C#
+* **3D Assets & Models:** Sourced from CGTrader, TurboSquid, and Unity Asset Store. (Models include Health Boosts, Keys, Guns, Enemies, and the Player Character).
+
+## 🚀 How to Play
+
+1. **Movement:** Standard FPS controls.
+2. **Combat:** Click the mouse button to fire your weapon.
+3. **Inventory:** Press the corresponding number key (e.g., `1`, `2`, `3`) to use the item in that inventory slot.
+4. **Interaction:** Pick up items by walking over them (if you have inventory space). Use the key only when standing near the trophy.
+
+## 📥 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VirangMahendrabhaiMungra/3D-Dungeon-crawler.git
+   ```
+2. Open Unity Hub and click **Open**.
+3. Select the cloned repository folder. Make sure you are using **Unity 2021.3.45f1** or a compatible version.
+4. Open the main scene in the `Assets` folder and click the **Play** button to start the game!
+
+---
+*Developed as part of a game development coursework assignment.*
