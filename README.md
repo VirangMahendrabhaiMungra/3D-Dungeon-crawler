@@ -4,9 +4,14 @@ A thrilling 3D Dungeon Crawler survival game built with **Unity (2021.3.45f1)**.
 
 ## 📸 Screenshots
 
-| Dungeon Overview | Enemy Encounter |
-|:---:|:---:|
-| <img src="Screenshots/dungeon_overview.png" width="400"/> | <img src="Screenshots/enemy_encounter.png" width="400"/> |
+<p align="center">
+  <img src="Screenshots/dungeon_map.png" alt="Dungeon Map Layout" width="600"/>
+  <br><em>Top-down view of the dungeon layout</em>
+</p>
+
+| Health Item | Key | Weapon |
+|:---:|:---:|:---:|
+| <img src="Screenshots/health_item.png" alt="Health Item" width="200"/> | <img src="Screenshots/key_item.png" alt="Key" width="200"/> | <img src="Screenshots/weapon.png" alt="Weapon" width="200"/> |
 
 ## 🎬 Gameplay Videos
 
